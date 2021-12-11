@@ -83,4 +83,4 @@ venv/
 # 여기는 그냥 받아들이자
 db.sqlite3
 .idea
-__pychache__/
+__pycache__/
