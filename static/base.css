@@ -15,3 +15,10 @@
     text-align:center;
     margin: 2rem 0;
 }
+
+@media screen and (max-width:500px) {
+    /*max-width가 500이하면 적용해 달라*/
+    html {
+        font-size: 13px;
+    }
+}

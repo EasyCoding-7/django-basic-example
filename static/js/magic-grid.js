@@ -228,7 +228,7 @@ MagicGrid.prototype.listen = function listen () {
 let magicGrid = new MagicGrid({
 container: '.container',
 animate: true,
-gutter: 30,
+gutter: 12,
 static: true,
 useMin: true
 });
@@ -239,4 +239,4 @@ for(let i = 0; i < masonrys.length; i++) {
     }, false);
 }
 magicGrid.listen();
-module.exports = MagicGrid;
+//module.exports = MagicGrid;
