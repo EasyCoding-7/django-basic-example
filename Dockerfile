@@ -4,7 +4,7 @@ WORKDIR /home/
 
 RUN git clone https://github.com/EasyCoding-7/django-basic-example.git
 
-WORKDIR /home/pragmatic/
+WORKDIR /home/django-basic-example/
 
 RUN pip install -r requirements.txt
 
